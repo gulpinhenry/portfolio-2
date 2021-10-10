@@ -15,9 +15,7 @@
 <body>
     <header>
         <div id = "cover-page" class="uk-position-relative">
-            <!-- TODO: figure out parallax scrolling -->
-            <div class="uk-cover-container" uk-height-viewport uk-parallax="sepia: 600;" >
-                <img src="./assets/images/sunset.jpg" alt="cover page" uk-cover >
+            <div class="uk-height-large uk-background-cover uk-light uk-flex" uk-height-viewport uk-parallax="bgy: 900" style="background-image: url('./assets/images/horizontal-placeholder-image.png');">
             </div>
             <div class="uk-position-top">
                 <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
@@ -53,6 +51,10 @@
             </div>
         </div>
     </section>
+    <div class="uk-height-large uk-background-cover uk-light uk-flex" uk-parallax="bgy: -200" style="background-image: url('./assets/images/horizontal-placeholder-image.png');">
+    
+    </div>
+
     <a id = "to-top-button" href="" uk-totop uk-scroll></a>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src = "./assets/js/script.js"></script>
