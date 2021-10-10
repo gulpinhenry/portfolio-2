@@ -13,7 +13,46 @@
 
 </head>
 <body>
-    
+    <header>
+        <div class="uk-position-relative">
+            <div class="uk-cover-container" uk-height-viewport uk-parallax="sepia: 100;">
+                <img src="./assets/images/coverplaceholder.png" alt="cover page" uk-cover>
+            </div>
+            <div class="uk-position-top">
+                <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+                    <div class="uk-navbar-left">
+                        <h1>hi</h1>
+                    </div>
+                    <div class="uk-navbar-right">
+                        <ul class="uk-navbar-nav">
+                            <li class="uk-active"><a href="#">Home</a></li>
+                            <li><a href="#about-me" uk-scroll>About Me</a></li>
+                            <li><a href="#">Resume</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section id = "biography" class="uk-section">
+        <div id = "bio-container" >
+            <div id = "main-name">
+                <h1 class="uk-heading-large uk-text-center"><span>Henry Kam</span></h1>
+                <h1 class="uk-text-lead uk-text-center"><span>blah blah</span></h1>
+            </div>
+            <div id = "about-me" >
+                <div class="uk-text-center" uk-grid>
+                    <div id = "vert-pic-container" class="uk-width-1-3">
+                        <img id = "vert-pic" src="./assets/images/verticalplaceholder.jpg" alt="picture of me" >
+                    </div>
+                    <div class="uk-width-2-3">
+                        <p id = "bio-text">hello sdfdsfsdfsdfsd</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <a id = "to-top-button" href="" uk-totop uk-scroll></a>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src = "./assets/js/script.js"></script>
 </body>

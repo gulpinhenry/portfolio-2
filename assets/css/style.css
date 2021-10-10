@@ -1,0 +1,25 @@
+*{
+
+}
+#bio-container{
+    border: 2px solid blue;
+    width:90vw;
+    margin:auto;
+}
+
+#to-top-button{
+    float:right;
+}
+#vert-pic-container{
+    /*border: 2px black solid;*/
+}
+#vert-pic{
+    margin:auto auto;
+    border: 2px red solid;
+}
+.uk-container{
+    border: 2px black solid;
+}
+#bio-text{
+    border: 2px green solid;
+}
