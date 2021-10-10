@@ -1,0 +1,1 @@
+UIkit.cover(element, options);
