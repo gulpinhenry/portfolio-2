@@ -1,17 +1,25 @@
-*{
 
+#cover-page{
+    height:100vh;
 }
 #bio-container{
-    border: 2px solid blue;
-    width:90vw;
+    width:100vw;
     margin:auto;
+    background-color: yellow;
 }
 
 #to-top-button{
     float:right;
 }
-#vert-pic-container{
-    /*border: 2px black solid;*/
+#main-name{
+    height: 250px;
+    margin: 40px 10%;
+}
+
+#about-me{
+    border: 5px solid black;
+    margin: auto;
+    width: 90vw;
 }
 #vert-pic{
     margin:auto auto;
@@ -22,4 +30,6 @@
 }
 #bio-text{
     border: 2px green solid;
+    height: 100%;
+    margin: auto auto;
 }
