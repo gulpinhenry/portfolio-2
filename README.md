@@ -29,7 +29,7 @@ An updated version of my portfolio!
 
 **See this unique experience in action!**
 
-![See this unique experience in action]()
+![See this unique experience in action](./assets/images/portfoliodemo.gif)
 
 ## Prerequisites
 Any modern internet browser will do!
