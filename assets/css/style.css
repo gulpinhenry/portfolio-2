@@ -2,6 +2,12 @@
 #cover-page{
     height:100vh;
 }
+#cover-photo{
+    object-fit: cover;
+}
+#biography{
+    margin-top:-70px;
+}
 #bio-container{
     max-width:100vw;
     background-color: yellow;
@@ -9,6 +15,8 @@
 
 #to-top-button{
     float:right;
+    border: 2px gray solid;
+    border-radius: 15px;
 }
 #main-name{
     height: 250px;
@@ -18,7 +26,7 @@
 #about-me{
     /* border: 5px solid black; */
     margin: auto;
-    width: 100vw;
+    width: 95vw;
 }
 #vert-pic{
     margin:40px auto;
@@ -37,6 +45,9 @@
 }
 #divider-img{
     margin: 2% 0;
+}
+#projects{
+    padding: 5vw;
 }
 .proj-el{
     margin-bottom: 50px;
