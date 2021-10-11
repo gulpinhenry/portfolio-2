@@ -38,8 +38,6 @@ Any modern internet browser will do!
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-* [jQuery](https://api.jquery.com/)
 * [UI Kit](https://getuikit.com/)
 
 ## Technologies Used

@@ -40,7 +40,7 @@
         <div id = "bio-container" >
             <div id = "main-name">
                 <h1 class="uk-heading-large uk-text-center"><span>Henry Kam</span></h1>
-                <h1 class="uk-text-lead uk-text-center"><span  style = "color: gray;">blah blah</span></h1>
+                <h1 class="uk-text-lead uk-text-center"><span  style = "color: gray;">Aspiring Web Developer</span></h1>
             </div>
             <div id = "about-me" >
                 <div class="uk-text-center" uk-grid>
@@ -48,14 +48,27 @@
                         <img id = "vert-pic" src="./assets/images/altpfp.jpg" alt="picture of me" >
                     </div>
                     <div class="uk-width-1-2 text-cont">
-                        <p class = "uk-text-large uk-text-middle uk-text-justify">Type more stuff</p>
+                        <div id = "bio-text" class = "uk-text-middle uk-text-justify">
+                            <p class = "uk-text-large">STUDENT. SCIENTIST. RESEARCHER.</p>
+                            <p class = "uk-text-medium">Henry Kam is an undergraduate first year at New York University planning to study
+                                computer science and engineering. He has co-authored several research papers in leading journals of materials
+                                science and engineering.
+                                <br><br>
+                                In his free time, Henry also loves to rearrange music and make his own piano covers. He uploads frequently on his <a href = "https://www.youtube.com/channel/UCxkAspmWlZ51Ikvvhw9bB4Q" target = "_blank">YouTube</a> channel.
+                                He loves to listen to IU, Illenium, and Foo Fighters.
+                                <br><br>
+                                He also enjoys weightlifting and playing badminton, as well as playing <a href = "https://na.op.gg/summoner/userName=Twizone" target = "_blank">League of Legends</a>. 
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- TODO: update parallax -->
-    <div id = "divider-img" class="uk-height-large uk-background-cover uk-light uk-flex" uk-parallax="bgy: 10" style="background-image: url('./assets/images/https___blogs-images.forbes.com_felipeschrieberg_files_2017_06_8990941920_2e2ded1e3b_k-1200x900.jpg');"></div>
+    <div id = "divider-img" class="uk-height-large uk-background-cover uk-light uk-flex uk-flex-top" style="background-image: url('./assets/images/https___blogs-images.forbes.com_felipeschrieberg_files_2017_06_8990941920_2e2ded1e3b_k-1200x900.jpg');">
+        <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical" uk-parallax="opacity: 0,1; y: 100,0; viewport: 0.5">Projects</h1>
+    </div>
     <section id = "projects" class="uk-section">
         <div class="proj-el uk-text-center" uk-grid>
             <div class="uk-width-1-2" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
@@ -109,7 +122,5 @@
         <h1 class = "uk-text-meta uk-text-center">© 2021 Henry Kam</h1>
     </footer>
     
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src = "./assets/js/script.js"></script>
 </body>
 </html>
